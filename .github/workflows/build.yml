@@ -6,7 +6,7 @@ on:
 
 jobs:
   build:
-    runs-on: macos-latest
+    runs-on: linux-latest
     steps:
       - uses: cachix/install-nix-action@v17
       # Cherry-pick #178206 to master:
