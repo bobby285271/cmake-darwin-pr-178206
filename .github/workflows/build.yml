@@ -11,4 +11,4 @@ jobs:
       - uses: cachix/install-nix-action@v17
       # Cherry-pick #178206 to master:
       # https://github.com/NixOS/nixpkgs/compare/master...024136c8498fb043d2c7728fd5485288684ad3a6
-      - run: nix-build -A cmakeMinimal https://github.com/NixOS/nixpkgs/archive/2ac68688885111a2bd81f98e719e0f06a4fc1c6a.tar.gz
+      - run: nix-build -A cmake https://github.com/NixOS/nixpkgs/archive/2ac68688885111a2bd81f98e719e0f06a4fc1c6a.tar.gz
